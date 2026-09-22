@@ -1,6 +1,6 @@
 # Rail — HTML Email Signature
 
-A pixel-robust HTML email signature: navy sidebar rail, monogram badge, live contact rows, CTA button and stat strip. Built as a portfolio piece for an HTML-signature gig — every detail is placeholder, swap in your own.
+A pixel-robust HTML email signature: navy sidebar rail, monogram badge, live contact rows, CTA button and stat strip. 600×306 — standard landscape signature proportions. Built as a portfolio piece for an HTML-signature gig — every detail is placeholder, swap in your own.
 
 ![preview](preview.png)
 
@@ -17,8 +17,8 @@ A pixel-robust HTML email signature: navy sidebar rail, monogram badge, live con
 | File | What |
 |------|------|
 | `signature.html` | Source of truth, references `slices/` relatively |
-| `signature-standalone.html` | Self-contained, all images base64 (~size) — paste-ready |
-| `slices/` | `e5_monogram.png`, contact icons (`e5_ic_*`), social icons (`e5_soc_*`) — all white, regenerated from glyph alpha |
+| `signature-standalone.html` | Local slices base64; social icons load from ibb.co hosted URLs — paste-ready |
+| `slices/` | `e5_monogram.png`, white contact icons (`e5_ic_*`) regenerated from glyph alpha; socials use hosted ibb.co links (see `signature.html`) |
 | `preview.png` | Rendered preview |
 
 ## Placeholders to replace
