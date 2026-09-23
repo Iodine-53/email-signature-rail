@@ -16,10 +16,12 @@ A pixel-robust HTML email signature: navy sidebar rail, monogram badge, live con
 
 | File | What |
 |------|------|
-| `signature.html` | Source of truth — every image is an absolute hosted URL (contact icons on catbox.moe, socials on ibb.co), paste-ready |
-| `signature-standalone.html` | Fully self-contained fallback: all images base64 (53KB), zero remote refs |
+| `signature.html` | Source of truth — every image is an absolute hosted URL (icons on catbox.moe, X on ibb.co), paste-ready |
+| `signature-standalone.html` | Fully self-contained fallback: all images base64 (63KB), zero remote refs |
 | `icon-hosting.md` | Icon-type → hosted-URL map + upload method |
 | `preview.png` | Rendered preview |
+
+Icons: Flaticon UIcons (Solid Rounded + Brands) — attribution: https://www.flaticon.com/uicons
 
 ## Placeholders to replace
 
