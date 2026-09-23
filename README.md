@@ -16,9 +16,9 @@ A pixel-robust HTML email signature: navy sidebar rail, monogram badge, live con
 
 | File | What |
 |------|------|
-| `signature.html` | Source of truth, references `slices/` relatively |
-| `signature-standalone.html` | Local slices base64; social icons load from ibb.co hosted URLs — paste-ready |
-| `slices/` | `e5_monogram.png`, white contact icons (`e5_ic_*`) regenerated from glyph alpha; socials use hosted ibb.co links (see `signature.html`) |
+| `signature.html` | Source of truth — every image is an absolute hosted URL (contact icons on catbox.moe, socials on ibb.co), paste-ready |
+| `signature-standalone.html` | Fully self-contained fallback: all images base64 (53KB), zero remote refs |
+| `icon-hosting.md` | Icon-type → hosted-URL map + upload method |
 | `preview.png` | Rendered preview |
 
 ## Placeholders to replace
