@@ -11,10 +11,12 @@ Social icons: Emmanuel's existing **ibb.co** uploads.
 | mail | `slices/e5_ic_mail.png` | https://files.catbox.moe/6r720g.png |
 | web | `slices/e5_ic_web.png` | https://files.catbox.moe/h46wyf.png |
 | pin | `slices/e5_ic_pin.png` | https://files.catbox.moe/jr41y2.png |
-| facebook | (ibb) | https://i.ibb.co/8Dtxyx1j/icon-facebook.png |
-| instagram | (ibb) | https://i.ibb.co/27rc02gJ/icon-instagram.png |
-| x | (ibb) | https://i.ibb.co/Wps5QjDH/icon-x.png |
-| linkedin | (ibb) | https://i.ibb.co/k61RgWnz/icon-linkedin.png |
+| facebook | `slices/e5_soc_fb_navy.png` | https://files.catbox.moe/2mxcut.png |
+| instagram | `slices/e5_soc_ig_navy.png` | https://files.catbox.moe/yp4ney.png |
+| x | (ibb, kept per Emmanuel — renders well) | https://i.ibb.co/Wps5QjDH/icon-x.png |
+| linkedin | `slices/e5_soc_li_navy.png` | https://files.catbox.moe/ax5e3x.png |
+
+Social note (2026-09-23): Emmanuel found the colorful ibb icons render badly except X — fb/ig/li were rebuilt as white glyphs on navy rounded-square badges from the downloaded icon alpha (artwork lives in the alpha channel, RGB is all white; ring removed via scipy connected components), matching the rail design.
 
 Upload method (catbox): `curl -F "reqtype=fileupload" -F "fileToUpload=@file.png" https://catbox.moe/user/api.php`
 Note: catbox uploads occasionally time out on the first attempt from this server — retry individually.
